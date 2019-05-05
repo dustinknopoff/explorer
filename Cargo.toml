@@ -1,0 +1,13 @@
+[package]
+name = "explorer"
+version = "0.1.0"
+authors = ["Dustin Knopoff <dustinknopoff@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+diesel = { version = "1.4", features = [ "sqlite"] }
+toml = "0.5"
+notify = "4.0"
+walkdir = "2.2"
+dotenv = "0.13"
+yaml-rust = "0.4"
